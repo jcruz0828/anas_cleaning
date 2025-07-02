@@ -97,7 +97,7 @@ const faqItems = [
   },
   {
     question: "Are you insured for rental property cleaning?",
-    answer: "Yes, Ana's Cleaning Service is fully insured and bonded with specialized coverage for rental properties. We carry liability insurance and worker's compensation insurance for your complete protection."
+    answer: "Yes, Ana&apos;s Cleaning Service is fully insured and bonded with specialized coverage for rental properties. We carry liability insurance and worker&apos;s compensation insurance for your complete protection."
   },
   {
     question: "What if guests complain about cleanliness?",

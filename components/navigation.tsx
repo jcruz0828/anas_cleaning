@@ -27,8 +27,8 @@ export function Navigation() {
               <span className="text-white font-bold text-lg">A</span>
             </div>
             <span className="font-heading font-semibold text-lg sm:text-xl text-gray-900">
-              <span className="hidden sm:inline">Ana's Cleaning Service</span>
-              <span className="sm:hidden">Ana's Cleaning</span>
+              <span className="hidden sm:inline">Ana&apos;s Cleaning Service</span>
+              <span className="sm:hidden">Ana&apos;s Cleaning</span>
             </span>
           </Link>
 

@@ -14,7 +14,7 @@ export function Footer() {
                 <span className="text-white font-bold text-lg">A</span>
               </div>
               <span className="font-heading font-semibold text-lg sm:text-xl">
-                Ana's Cleaning Service
+                Ana&apos;s Cleaning Service
               </span>
             </div>
             <p className="text-gray-300 mb-6 text-sm sm:text-base leading-relaxed">
@@ -89,7 +89,7 @@ export function Footer() {
         <div className="border-t border-gray-800 mt-8 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-gray-400 text-sm">
-              © 2025 Ana's Cleaning Service. All rights reserved.
+              © 2025 Ana&apos;s Cleaning Service. All rights reserved.
             </p>
             <div className="flex space-x-6 mt-4 md:mt-0">
               <Link href="#" className="text-gray-400 hover:text-primary transition-colors text-sm">

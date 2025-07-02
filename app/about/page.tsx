@@ -20,7 +20,7 @@ export default function AboutPage() {
             className="text-center"
           >
             <h1 className="font-heading text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-              About Ana's Cleaning Service
+              About Ana&apos;s Cleaning Service
             </h1>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
               Professional cleaning services for all types of properties in the Coachella Valley. 
@@ -44,7 +44,7 @@ export default function AboutPage() {
                 Our Mission
               </h2>
               <p className="text-lg text-gray-600 mb-6 leading-relaxed">
-                At Ana's Cleaning Service, we believe that every space deserves professional care. 
+                At Ana&apos;s Cleaning Service, we believe that every space deserves professional care. 
                 Our mission is to provide exceptional cleaning services for homes, offices, and vacation rentals 
                 using eco-friendly products. We specialize in Airbnb turnovers, helping hosts succeed in the Coachella Valley.
               </p>
@@ -209,7 +209,7 @@ export default function AboutPage() {
               Ready to Work with Us?
             </h2>
             <p className="text-xl text-pink-100 mb-8 max-w-2xl mx-auto">
-              Experience the Ana's Cleaning Service difference. Contact us today for a free consultation.
+              Experience the Ana&apos;s Cleaning Service difference. Contact us today for a free consultation.
             </p>
             <Button asChild size="lg" variant="secondary" className="text-lg px-8 py-3 shadow-2xl hover:shadow-3xl transition-all duration-300 transform hover:-translate-y-1 font-semibold border-2 border-white/20 hover:border-white/40">
               <Link href="/contact">

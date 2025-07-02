@@ -41,8 +41,8 @@ export default function ContactPage() {
               Get Your Free Quote
             </h1>
             <p className="text-lg sm:text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-              Ready for professional cleaning services? Whether it's your home, office, or Airbnb property - 
-              contact us today for a personalized quote and experience the Ana's difference.
+              Ready for professional cleaning services? Whether it&apos;s your home, office, or Airbnb property - 
+              contact us today for a personalized quote and experience the Ana&apos;s difference.
             </p>
           </motion.div>
         </div>

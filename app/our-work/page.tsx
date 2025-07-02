@@ -45,13 +45,13 @@ const testimonials = [
     name: "Jennifer Thompson",
     location: "Palm Desert, CA",
     rating: 5,
-    text: "Ana's team transformed my home completely! Every surface was spotless, and they used eco-friendly products that didn't leave any harsh chemical smells. I'm a customer for life!"
+    text: "Ana&apos;s team transformed my home completely! Every surface was spotless, and they used eco-friendly products that didn&apos;t leave any harsh chemical smells. I&apos;m a customer for life!"
   },
   {
     name: "Robert Davis",
     location: "Palm Springs, CA",
     rating: 5,
-    text: "Professional, reliable, and thorough. Ana's Cleaning Service has been maintaining our office space for over a year, and the quality is consistently excellent."
+    text: "Professional, reliable, and thorough. Ana&apos;s Cleaning Service has been maintaining our office space for over a year, and the quality is consistently excellent."
   },
   {
     name: "Patricia Wilson",
@@ -63,13 +63,13 @@ const testimonials = [
     name: "Michael Chen",
     location: "Indio, CA",
     rating: 5,
-    text: "After a kitchen renovation, Ana's team did an incredible deep clean. They removed all the construction dust and made everything sparkle. Highly recommend!"
+    text: "After a kitchen renovation, Ana&apos;s team did an incredible deep clean. They removed all the construction dust and made everything sparkle. Highly recommend!"
   },
   {
     name: "Sarah Martinez",
     location: "Desert Hot Springs, CA",
     rating: 5,
-    text: "Moving out cleaning service was exceptional. Ana's team helped us get our full deposit back by making the place look better than when we moved in!"
+    text: "Moving out cleaning service was exceptional. Ana&apos;s team helped us get our full deposit back by making the place look better than when we moved in!"
   },
   {
     name: "David Brown",

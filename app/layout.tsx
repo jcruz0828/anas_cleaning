@@ -19,20 +19,20 @@ const poppins = Poppins({
 
 export const metadata: Metadata = {
   metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || 'https://anascleaningservice.vercel.app'),
-  title: "Ana's Cleaning Service — Spotless Every Time",
+  title: "Ana&apos;s Cleaning Service — Spotless Every Time",
   description: "Professional cleaning services for homes, offices, and vacation rentals in the Coachella Valley. Specializing in Airbnb turnovers with same-day service available.",
   keywords: "cleaning services, airbnb cleaning, vacation rental cleaning, house cleaning, office cleaning, coachella valley, palm springs, palm desert, turnover cleaning",
   openGraph: {
-    title: "Ana's Cleaning Service — Spotless Every Time",
+    title: "Ana&apos;s Cleaning Service — Spotless Every Time",
     description: "Professional cleaning services for homes, offices, and vacation rentals. Specializing in Airbnb turnovers.",
     images: ['/og-cover.png'],
     type: 'website',
     url: '/',
-    siteName: "Ana's Cleaning Service",
+    siteName: "Ana&apos;s Cleaning Service",
   },
   twitter: {
     card: 'summary_large_image',
-    title: "Ana's Cleaning Service — Spotless Every Time",
+    title: "Ana&apos;s Cleaning Service — Spotless Every Time",
     description: "Professional cleaning services for homes, offices, and vacation rentals. Specializing in Airbnb turnovers.",
     images: ['/og-cover.png'],
   },

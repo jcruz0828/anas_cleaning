@@ -6,6 +6,7 @@ import { Button } from '@/components/ui/button'
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
 import { CheckCircle, Sparkles, Shield, Clock, Star, Phone, ArrowRight } from 'lucide-react'
 import Link from 'next/link'
+import Image from 'next/image'
 
 const services = [
   {
@@ -33,19 +34,19 @@ const testimonials = [
     name: "Sarah Johnson",
     location: "Airbnb Host - Palm Springs",
     rating: 5,
-    text: "Ana's turnover service is incredible! My guests always comment on how spotless the property is. My 5-star ratings have improved significantly!"
+    text: "Ana&apos;s turnover service is incredible! My guests always comment on how spotless the property is. My 5-star ratings have improved significantly!"
   },
   {
     name: "Mike Rodriguez", 
     location: "Homeowner - Palm Desert",
     rating: 5,
-    text: "Ana cleans our home bi-weekly and it's always perfect. Professional, reliable, and uses eco-friendly products. Couldn't be happier!"
+    text: "Ana cleans our home bi-weekly and it&apos;s always perfect. Professional, reliable, and uses eco-friendly products. Couldn&apos;t be happier!"
   },
   {
     name: "Lisa Chen",
     location: "Office Manager - La Quinta",
     rating: 5,
-    text: "Our office has never been cleaner! Ana's team is thorough, punctual, and maintains a professional environment for our employees and clients."
+    text: "Our office has never been cleaner! Ana&apos;s team is thorough, punctual, and maintains a professional environment for our employees and clients."
   }
 ]
 
@@ -71,7 +72,7 @@ export default function HomePage() {
               <h1 className="font-heading text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-8 lg:mb-12 leading-tight sm:leading-relaxed">
                 <span className="block">Spotless Every Time</span>
                 <span className="block text-primary mt-1 sm:mt-2">
-                  with Ana's Cleaning
+                  with Ana&apos;s Cleaning
                 </span>
               </h1>
               <motion.p 
@@ -138,9 +139,11 @@ export default function HomePage() {
             >
               <div className="bg-gradient-to-br from-primary/10 via-primary/5 to-primary/15 rounded-3xl p-8 relative overflow-hidden">
                 <div className="relative z-10">
-                  <img
+                  <Image
                     src="/landing.jpg"
                     alt="Professional cleaning supplies and spray bottle"
+                    width={600}
+                    height={400}
                     className="rounded-2xl shadow-2xl w-full h-auto"
                   />
                 </div>
@@ -289,7 +292,7 @@ export default function HomePage() {
               transition={{ duration: 0.6, delay: 0.4 }}
               viewport={{ once: true }}
             >
-              Whether you're an Airbnb host, homeowner, or business owner - experience the Ana's difference. Get your free quote today!
+              Whether you&apos;re an Airbnb host, homeowner, or business owner - experience the Ana&apos;s difference. Get your free quote today!
             </motion.p>
             <motion.div 
               className="flex flex-col sm:flex-row gap-4 justify-center"
